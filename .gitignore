@@ -1,0 +1,36 @@
+# Compiled object files
+target/
+
+# Generated files
+Cargo.lock
+Cargo.toml
+
+# Rust build artifacts
+*.rs.bk
+
+# Logs
+*.log
+
+# MacOS Finder folder attributes
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+
+# Build directories
+/build/
+
+# Rust-specific
+*.rs.bk
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Environment files
+.env
+
+# User-specific files
+*.swp
+*.swo

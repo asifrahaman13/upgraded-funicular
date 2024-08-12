@@ -1,0 +1,12 @@
+/home/asifr/dev/projects/language/rust/organize_ai/target/debug/deps/libhttparse-917e4c63a8196bca.rmeta: /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/lib.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/iter.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/macros.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/mod.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/swar.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/sse42.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/avx2.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/runtime.rs
+
+/home/asifr/dev/projects/language/rust/organize_ai/target/debug/deps/httparse-917e4c63a8196bca.d: /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/lib.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/iter.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/macros.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/mod.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/swar.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/sse42.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/avx2.rs /home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/runtime.rs
+
+/home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/lib.rs:
+/home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/iter.rs:
+/home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/macros.rs:
+/home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/mod.rs:
+/home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/swar.rs:
+/home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/sse42.rs:
+/home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/avx2.rs:
+/home/asifr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.4/src/simd/runtime.rs:
