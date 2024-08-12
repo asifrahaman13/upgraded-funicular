@@ -1,3 +1,6 @@
+mod maths;
+mod folder;
+
 struct User {
     name: String,
     age: u32,
@@ -39,6 +42,13 @@ fn main() {
     see_direction(left_direction);
     see_direction(down_direction);
     see_direction(direction);
+
+    let result = maths::add(10, 20);
+    println!("Result of addition is: {}", result);
+
+
+    let perimeter = folder::perimeter(10.0); 
+    println!("Perimeter of circle is: {}", perimeter);
 }
 
 fn update_string(s: &mut String) -> &mut String {
