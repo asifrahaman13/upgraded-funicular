@@ -8,5 +8,5 @@ simply head over to the folder and run the application using cargo
 
 ```rust 
 cd folder/
-cargo run
+cargo build && cargo run
 ```
