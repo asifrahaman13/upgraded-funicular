@@ -1,8 +1,8 @@
 use reqwest::blocking::Client;
-use serde::{Deserialize, Serialize};
+use serde::{ Deserialize, Serialize };
 use std::error::Error;
-use std::io::{self, stdin};
-use std::process::{Command, Output};
+use std::io::{ self, stdin };
+use std::process::{ Command, Output };
 
 #[derive(Serialize)]
 struct ChatMessage {
@@ -79,7 +79,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let chat_response: ChatResponse = response.json()?;
     println!("Response: {}", chat_response.message.content);
 
-   let command = &chat_response.message.content;
+    let command = &chat_response.message.content;
 
     let cleaned_command = command.trim().trim_matches('`').to_string();
 

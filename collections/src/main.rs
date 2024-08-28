@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::{collections::HashMap};
 
 fn main() {
     // Initialize the vector.
@@ -21,14 +21,30 @@ fn main() {
     }
 
     println!("Vector is: {:?}", v); // This line will throw an erro if we do not access the item through reference in the for loop above.
-    
+
     // Define the hashmap
     let mut scores = HashMap::new();
     scores.insert(String::from("Blue"), 10);
     scores.insert(String::from("Yellow"), 50);
     println!("Scores are: {:?}", scores);
 
-    for (key, value) in &scores{
-        println!("{key}: {value}")
+    for (key, value) in &scores {
+        println!("{key}: {value}");
+    }
+
+    let mut normal_string = String::from("Hello");
+    normal_string.push_str(", World!");
+    println!("Normal string is: {}", normal_string);
+
+    let another_string = "hello I am another string definition";
+    println!("Another string is: {}", another_string);
+
+    let mut my_hash_map=HashMap::new();
+    my_hash_map.insert("address", "1234 Main Street");
+    my_hash_map.insert("city", "New York");
+    println!("My hash map is: {:?}", my_hash_map);
+
+    for (key, value) in &my_hash_map{
+        println!("{key}: {value}");
     }
 }
